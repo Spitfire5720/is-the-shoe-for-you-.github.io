@@ -52,10 +52,18 @@ body{
 
 /*Tori*/
 /*Multi-column*/
-.brands p{
+.brands {
+  padding: 1px;
+}
+
+section{
   column-count: 3;
   column-gap:40px;
   column-rule-style: solid;
   column-rule-width: 1px;
   column-rule-color: #ddd;
+}
+
+p{
+  margin-top: 0;
 }
