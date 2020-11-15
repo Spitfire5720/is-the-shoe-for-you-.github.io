@@ -19,3 +19,51 @@ text-decoration:underline;
 body{
 
 }
+
+
+/*Tori*/
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #0085AD;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #16C4FA;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #0085AD;
+  color: #ddd;
+}
+
+/*Tori*/
+/*Multi-column*/
+div {
+  column-count: 2;
+  column-gap:15px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: #ddd;
+}
+
+div {
+  column-count: 1;
+  column-gap: 25px;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  column-rule-color: lightblue;
+}
