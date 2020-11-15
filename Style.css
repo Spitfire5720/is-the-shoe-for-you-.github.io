@@ -52,18 +52,10 @@ body{
 
 /*Tori*/
 /*Multi-column*/
-div {
-  column-count: 2;
-  column-gap:15px;
+.brands{
+  column-count: 3;
+  column-gap:25px;
   column-rule-style: solid;
   column-rule-width: 1px;
   column-rule-color: #ddd;
-}
-
-div {
-  column-count: 1;
-  column-gap: 25px;
-  column-rule-style: solid;
-  column-rule-width: 5px;
-  column-rule-color: lightblue;
 }
