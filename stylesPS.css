@@ -1,15 +1,27 @@
-<div class="w3-bar w3-border w3-black">
-  <a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-blue">Home</a>
-  
-  <a href="Cleats.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-blue">Cleats</a>
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
 
-	<a href=" .html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-blue">Casual</a>
-	
-	<a href=" .html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-blue">Sneakers</a>
-	
-	<a href="Boot_webpage.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-blue">Boots</a>
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-	<a href="professionalshoes.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-blue">Formal</a>
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
-	<a href=" .html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-blue">Sandals</a>
-</div>
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
