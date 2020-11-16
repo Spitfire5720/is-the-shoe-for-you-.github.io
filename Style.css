@@ -17,7 +17,9 @@ text-decoration:underline;
 }
 
 body{
-
+background-image: url("tsy_logo.png"), url("tsy_logo.png");
+background-repeat: no-repeat;
+background-position: right top, left top;
 }
 
 
