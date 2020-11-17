@@ -52,6 +52,13 @@ background-position: right top, left top;
   color: #ddd;
 }
 
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #0085AD;
+  color: #ddd;
+}
+
 /*Tori*/
 /*Multi-column*/
 /*.brands {
