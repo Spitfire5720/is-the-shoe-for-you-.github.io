@@ -49,14 +49,14 @@ background-position: right top, left top;
 
 /*Tori*/
 /* Add a blue background color to the top navigation */
-.header .topnav {
+ .topnav {
   background-color: #0085AD;
   overflow: hidden;
   position: relative;
 }
 
 /* Style the links inside the navigation bar */
-.header .topnav a {
+.topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -66,13 +66,13 @@ background-position: right top, left top;
 }
 
 /* Change the color of links on hover */
-.header .topnav a:hover {
+.topnav a:hover {
   background-color: #ddd;
   color: #16C4FA;
 }
 
 /* Add a color to the active/current link */
-.header .topnav a.active {
+.topnav a.active {
   background-color: #0085AD;
   color: #ddd;
 }
