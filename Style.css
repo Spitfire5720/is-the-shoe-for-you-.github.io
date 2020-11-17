@@ -34,9 +34,9 @@ background-position: right top, left top;
 .header img{
   float: right;
   padding: 12px;
-  width: 20%;
-  height: 20%;
-  background: #ddd;
+  width: 100px;
+  height: 100px;
+  
 }
 
   .header a.itsfy_logo{
