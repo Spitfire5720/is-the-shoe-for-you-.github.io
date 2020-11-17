@@ -1,0 +1,22 @@
+body{
+	background-color:#FFE0B2 ;
+	}
+
+#wrapper { width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: #EAEAEA; }
+ 
+header { background-color: #FFE0B2; }
+
+h1 { margin: 1; padding: 20px;background-color: #F5CBA7 ; font-style : impact; }
+
+nav { 
+background-color: #e3b04b;
+float: left;
+ width: 100px;
+ padding: 30px; }
+ 
+main { margin-left: 200px;
+ padding: 10px;
+ background-color: #f1d7a3; }
