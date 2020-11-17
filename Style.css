@@ -36,6 +36,12 @@ background-position: right top, left top;
   position: relative;
   padding: 12px;
 }
+
+  .header a.itsfy_logo{
+		font-size: 25px;
+		font-weight:bold;
+	}
+
 /*Tori*/
 /* Add a blue background color to the top navigation */
 .topnav {
@@ -70,6 +76,7 @@ footer {
   padding: 3px;
   background-color: #0085AD;
   color: #ddd;
+  font-size: 17px;
 }
 
 /*Tori*/
@@ -100,4 +107,4 @@ article{
   padding: 2px;
   background: #ddd;
 }
-*/
+
