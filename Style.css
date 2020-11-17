@@ -22,30 +22,7 @@ background-repeat: no-repeat;
 background-position: right top, left top;
 }
 
-/* Style header*/
-.header a{
-  float: right;
-  color: #ddd;
-  padding: 12px;
-  font-size: 18px;
-  line-height: 25px;
-}
-/* Style logo*/
-.header img{
-  float: right;
-  padding: 12px;
-  width: 50px;
-  height: 45px;
-  
-}
 
-  .header a.itsfy_logo{
-		font-size: 25px;
-		font-weight:bold;
-	  	position: relative;
-	  	top: 18px;
-	  	right: 10px;
-	}
 
 /*Tori*/
 /* Add a blue background color to the top navigation */
