@@ -30,6 +30,12 @@ background-position: right top, left top;
   font-size: 18px;
   line-height: 25px;
 }
+/* Style logo*/
+.header img{
+  float: right;
+  position: relative;
+  padding: 12px;
+}
 /*Tori*/
 /* Add a blue background color to the top navigation */
 .topnav {
