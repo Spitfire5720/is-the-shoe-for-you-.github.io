@@ -1,0 +1,249 @@
+.container {
+    width: 80%; margin: auto;
+}
+
+.topnav {
+    background-color: #0085AD;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #16C4FA;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #0085AD;
+  color: #ddd;
+}
+
+.container2 {
+    width:100%;
+    margin: auto;
+}
+
+.brand {
+    width: 300px;
+    float: left;
+    height: 300px;
+    margin-right: 25px;
+}
+
+/*List of Brands*/
+
+    .flat, fuzzy {
+
+        display: inline-block;
+
+    }
+
+    /*Flat*/
+
+    .flat {
+        
+        width: 100%;
+        
+        float: left;
+        
+        height: 300px;
+        
+        margin-right: 50px;
+        
+        background: url(Shoe_Brands/Barkal/Flats/2/flat_2.png) no-repeat;
+        
+        display: inline-block;
+        
+    }
+
+    .flat:hover{
+        background: url(Shoe_Brands/Barkal/Flats/2/flat_2_preview.png) no-repeat;
+    }
+
+    /*Fuzzy*/
+
+    .fuzzy {
+        width: 300px;
+        float: left;
+        height: 300px;
+        background: url(Shoe_Brands/Confetti/Fuzzy_Sandals/1/fuzzy_2.png) no-repeat;
+        display: inline-block;
+    }
+
+    .fuzzy:hover {
+        background: url(Shoe_Brands/Confetti/Fuzzy_Sandals/1/fuzzy_angle.png) no-repeat;
+    }
+
+    /*Goat Sandals*/
+
+    .goatsandal {
+        
+        width: 300px;
+        
+        float: left;
+        
+        height: 300px;
+        
+        margin-right: 50px;
+        
+        background: url(Shoe_Brands/Brother_Vellies/Goat_Sandal/1/Goat_Sandal_1.png) no-repeat;
+        
+        display: inline-block;
+        
+    }
+
+    .goatsandal:hover{
+        background: url(Shoe_Brands/Brother_Vellies/Goat_Sandal/1/Goat_Sandal_2.png) no-repeat;
+    }
+
+    /*Mule Slippers*/
+
+    .slippymule {
+        
+        width: 300px;
+        
+        float: left;
+        
+        height: 300px;
+        
+        margin-right: 50px;
+        
+        background: url(Shoe_Brands/Shekudo/Slide_Mule/1/slippymule.png) no-repeat;
+        
+        display: inline-block;
+        
+    }
+
+    .slippymule:hover{
+        background: url(Shoe_Brands/Shekudo/Slide_Mule/1/slippymule_preview.png) no-repeat;
+    }
+
+    /*Sandals*/
+
+    .sandal {
+        
+        width: 300px;
+        
+        float: left;
+        
+        height: 300px;
+        
+        margin-right: 50px;
+        
+        background: url(Shoe_Brands/Michael_Grey_Sandal_Factory/Sandal/1/Sandal_1.png) no-repeat;
+        
+        display: inline-block;
+        
+    }
+
+    .sandal:hover{
+        background: url(Shoe_Brands/Michael_Grey_Sandal_Factory/Sandal/1/Sandal_preview.png) no-repeat;
+    }
+
+    /*Leather Mule*/
+
+    .leamule {
+        
+        width: 300px;
+        
+        float: left;
+        
+        height: 300px;
+        
+        margin-right: 50px;
+        
+        background: url(Shoe_Brands/Zouxou/Leather_Mule/1/leamule_1.png) no-repeat;
+        
+        display: inline-block;
+        
+    }
+
+    .leamule:hover{
+        background: url(Shoe_Brands/Zouxou/Leather_Mule/1/leamule_overview.png) no-repeat;
+    }
+
+    /*Mocassins*/
+
+    .mocassin {
+        
+        width: 300px;
+        
+        float: left;
+        
+        height: 300px;
+        
+        margin-right: 50px;
+        
+        background: url(Shoe_Brands/Sole_Rebels/Shoes/Mocassins/4/Mocassin_4.png) no-repeat;
+        
+        display: inline-block;
+        
+    }
+
+    .mocassin:hover{
+        background: url(Shoe_Brands/Sole_Rebels/Shoes/Mocassins/4/Mocassin_4_preview.png) no-repeat;
+    }
+
+    /*Huaraches*/
+
+    .huarache {
+        
+        width: 300px;
+        
+        float: left;
+        
+        height: 300px;
+        
+        margin-right: 50px;
+        
+        background: url(Shoe_Brands/Brother_Vellies/Huarache/2/Huarache_1.png) no-repeat;
+        
+        display: inline-block;
+        
+    }
+
+    .huarache:hover{
+        background: url(Shoe_Brands/Brother_Vellies/Huarache/2/Huarache_1_preview_1.png) no-repeat;
+    }
+
+    /*Slippers*/
+
+    .slippies {
+        
+        width: 300px;
+        
+        float: left;
+        
+        height: 300px;
+        
+        margin-right: 50px;
+        
+        background: url(Shoe_Brands/Negash/Slip_On_Shoes/1/slipon_1.png) no-repeat;
+        
+        display: inline-block;
+        
+    }
+
+    .slippies:hover{
+        background: url(Shoe_Brands/Negash/Slip_On_Shoes/1/slipon_preview.png) no-repeat;
+    }
+
+
+.example {
+    background-color: aqua;
+    margin-top: 1500px;
+    margin-right: 100%;
+        
+}
