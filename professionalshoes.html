@@ -11,13 +11,33 @@
 	
 	<style>
 		
-		/*.main{
-		  max-width: 100px;
-		  margin: auto;
-		}*/
+		body, html{
+			height: 100%;
+		}
+		
+		/*center image*/
+		.center-image{/*make image darker so text is easier to read*/
+		background-image: linear gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("gallery/blackheels.jpg");
+		height: 50%;
+		/*position and center for all screens*/
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		}
+		
+		.center-image-text{
+		text-align: center;
+		positin: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%, -50%);
+		color: white;
+		}
 		
 		ul{list-style-type: none;/*removes bullet points*/}
 		li{display: inline-block;
+		   position: relative;
 		   width: 225px;
 		   padding-bottom: 10px;
 		   margin: 10px;
@@ -31,12 +51,6 @@
 		position: center;
 		}
 		
-		/*@media screen and (max-width: 600px) {
-  		.topnav a {
-    		  float: none;
-    		  width: 100%;
-  		  }
-		}*/
 		
 		
 		.logo img{
@@ -79,8 +93,11 @@
 
 	<a href=" .html">Sandals</a> 
 </div>
-	
-<h2>Jobs and Interviews</h2>
+<div class="center-image">
+	<div class="center-image-text">
+			<h2><left>Jobs and Interviews</left></h2>
+	</div>
+</div>
 	<hr>
 
 <ul>
