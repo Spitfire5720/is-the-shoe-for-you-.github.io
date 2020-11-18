@@ -17,9 +17,8 @@ text-decoration:underline;
 }
 
 body{
-background-image: url("tsy_logo.png"), url("tsy_logo.png");
-background-repeat: no-repeat;
-background-position: right top, left top;
+background-image: url(tsy_header.png);
+background: url(tsy_logo.png) no-repeat right top, left top;
 }
 
 
@@ -91,3 +90,6 @@ article{
   background: #ddd;
 }
 
+margin{
+  margin: 10% 30px 20% 5%; /*top right bottom left*/
+}
