@@ -1,0 +1,168 @@
+/* Below is in example of a "margin" and "padding" reset for the entire page.
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+/* a:visited {
+    color: black;
+}*/
+
+body {
+    background-color: tan;
+    color: #555555;
+        
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    /* Same as above */
+    font: normal 12px arial, helvetica, sans-serif;
+    
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 80%; margin: auto;
+}
+
+.topnav {
+    background-color: #0085AD;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #16C4FA;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #0085AD;
+  color: #ddd;
+}
+.box-1 {
+    background-color: #333;
+    color: #fff;
+    
+    border-right: 5px #0085AD solid;
+    border-left: 5px #0085AD solid;
+    border-top: 5px #0085AD solid;
+    border-bottom: 5px #0085AD solid;
+    
+    /* Same as above */
+    
+    border: 5px #0085AD solid;
+   
+    /* Below are ways to edit the border. There are many more ways. */
+    
+    border-width: 3px;
+    border-bottom-width: 10px; 
+    border-top-style: dotted;
+    
+    /* Back on track */
+    
+    border: 5px #0085AD solid;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    /* Same as above */
+    
+    padding: 20px;
+    
+    margin-top: 20px;
+    
+    /* Same as above */
+    
+    margin: 20px 0px;
+}
+
+.box-1 h1 {
+    font-family: Tahoma;
+    font-weight:800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2 {
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding-left: 1em;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('../forme/cupcake_downsize.png')
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+    padding: 8px;
+    width: 100%
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
