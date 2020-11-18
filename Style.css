@@ -75,9 +75,9 @@ section{
   column-rule-width: 1px;
   column-rule-color: #ddd;
 }
-
+*/
 p{
-  /*margin-top: 0;*/
+  margin-top: 0;
   line-height: 10px;
 }
 
