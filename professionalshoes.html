@@ -9,6 +9,16 @@
 	<title>Professional Shoes</title>
 	
 	<style>
+		@media screen and (max-width: 600px) {
+  		.column {
+    		  width: 100%;
+  		  }
+		}
+		
+		.main{
+		  max-width: 100px;
+		  margin: auto;
+		}
 		
 		ul{list-style-type: none;/*removes bullet holes*/}
 		li{display: inline-block;
@@ -24,10 +34,13 @@
 		h2{
 		position: center;
 		}
-		
-		p{
-		position:center;
+		@media screen and (max-width: 600px) {
+  		.topnav a {
+    		  float: none;
+    		  width: 100%;
+  		  }
 		}
+		
 		
 		
 	</style>
@@ -35,9 +48,12 @@
 <body>
 <body bgcolor = tan>
 
-
+<div class="main">
+	
+<header>
 	<h1><center>Is the Shoe for you?</center></h1><br><br>
-
+	
+</header>
 	
 <div class="topnav">
 	<a href="index.html">Home</a>
@@ -57,7 +73,7 @@
 	<a href=" .html">Sandals</a> 
 </div>
 	
-<h1>Jobs and Interviews</h1>
+<h2>Jobs and Interviews</h2>
 	<hr>
 
 <ul>
@@ -115,11 +131,12 @@
 		<p>Material: Manmade leather and calf hair</p>
 		<p>Website: <a href="https://kahmune.com/">Kahume</a></p>
 	
-	<h2>Derby</h2>
+	
 	</li>
 
 	<li>
-	<p>History: <a href="https://www.fashionbeans.com/article/derby-shoes-guide/">click here </a></p>
+		<h2>Derby</h2>
+		<p>History: <a href="https://www.fashionbeans.com/article/derby-shoes-guide/">click here </a></p>
 		It has been said, Derby shoes were adopted for wide-footed men 
 		and specifically for the 14th Earl of Derby. His were wider than
 		the Oxford style shoes so they Derby shoes helped him feel more 
@@ -157,7 +174,7 @@
 	
 	</li>
 </ul>
-
+</div>
 <footer>&copy; Copyright 2020 Tori W | The GOATs<br>
 <address>Written by <a href="mailto:twatson@pvamu.edu">Tori W.</a><br>
 Visit us at:<br>
